@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/newTask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewTask">
+
+    <TextView
+        android:id="@+id/addNewTask"
+        android:layout_width="114dp"
+        android:layout_height="26dp"
+        android:text="Add A New Task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <EditText
+        android:id="@+id/taskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Title"
+        app:layout_constraintBottom_toTopOf="@+id/taskDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addNewTask"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/taskDeadlineDate"
+        android:layout_width="103dp"
+        android:layout_height="21dp"
+        android:ems="10"
+        android:hint="Deadline Date"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <EditText
+        android:id="@+id/taskDeadlineTime"
+        android:layout_width="105dp"
+        android:layout_height="19dp"
+        android:ems="10"
+        android:hint="Deadline Time"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/backToList"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="Back To Tasks"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskDescription"
+        app:layout_constraintVertical_bias="0.286" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

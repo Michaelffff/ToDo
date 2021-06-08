@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Les2</string>
+
+    <!--Main screen/login screen-->
+    <string name="mainactivity_title_tf">Main Menu</string>
+    <string name=""></string>
+    <string name=""></string>
+
+    <!--task overview screen-->
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+
+    <!--new task screen-->
+
+    <!--edit task screen-->
+
+    <!--register screen-->
+
+    <!--task detail screen-->
+
+    <!--labels screen-->
+
+    <!--new label screen-->
+
+    <!--completed tasks screen-->
+
+</resources>
